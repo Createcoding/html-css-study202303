@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="ko">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    
+
 </head>
+
 <body>
 
-    <header id ="github-link">깃허브로 이동</header>
-    
-    
+    <header id="github-link">깃허브로 이동</header>
+
+
     <a href="https://www.naver.com">네이버 링크</a>
     <a href="https://www.google.com" target="_blank">구글 링크</a>
 
@@ -30,16 +32,14 @@
     <a href="#top">맨 위로 이동</a>
 
     <script>
+        const $spanLink = document.getElementById('github-link');
 
-          const $spanLink 
-            = document.getElementById('github-link');
-            
         $spanLink.onclick = e => {
             window.location.href = "https://github.com";
-        };    
-
+        };
     </script>
 
 
 </body>
+
 </html>
