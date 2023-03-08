@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+    /* before,after는 ::을 두번쓰라 */
+    li::before{
+        /* 필수속성 : content. 안쓰면 다른속성 적용안됨.*/
+        content: '번호';
+    }
+    li::after{
+        content: '';
+        /* 도형을 넣을때는 display 속성 필수 */
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background: red;
+        /* 네모 ->원을 만드는 속성 bddr 50%  */
+        border-radius: 50%;
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <!-- {}는 greet안에 텍스트를 쓰겠다는뜻 
+       h1.greet{hello}-->
+    <!-- $는 시퀀스(순서) -->
+    <ul>
+        <!-- 1에 before -> <가상li>번호</가상li> 생긴것, 블록요소가 아니라서 번호1 이어져서 보이는것-->
+        <li>1</li>
+        <!-- 1에 after -> <가상li>번호</가상li> 생긴것 -->
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+        <li>10</li>
+    </ul>
+
+</body>
+</html>
