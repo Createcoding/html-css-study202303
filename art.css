@@ -1,0 +1,101 @@
+@import url('../common.css');
+body{
+    font-size: 20px;
+}
+#wrapper{
+    width: 80%;
+    border: 4px solid #000;
+    margin: 10px auto 0;
+}
+#wrapper header {
+    text-align: center;
+    background-color: orange;
+    color: white;
+}
+#wrapper header h1{
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+#wrapper header span{
+    font-size: 1em;
+    position: relative;
+    bottom: 10px;
+}
+#wrapper header h2{
+    background-color: lightgray;
+    font-size: 14px;
+}
+
+#wrapper .container {
+    border: 4px solid blue;
+}
+#wrapper .container .side-menu {
+    width: 15%;
+    float: left;
+  
+    border: 4px solid yellow;
+}
+#wrapper .container h3{
+    background-color: red; 
+    padding:10px;
+    color:white;
+    border: 1px solid #000;
+}
+#wrapper .container ul{
+    text-decoration: underline;
+}
+#wrapper .container ul li{
+    margin-bottom: 12px;
+    padding: 8px
+}
+#wrapper .container .main-content {
+    width: 55%;
+    float: left;
+    border: 1px solid #000;
+    background-color: #bbb;
+}
+#wrapper .container .main-content .art-piece{
+    border: 1px solid #000;
+    padding: 10px;
+    color: darkblue;
+}
+#wrapper .container .main-content .art-piece .title{
+    background-color: blue;
+    color: white;
+    font-size: 1.3em;
+    font-weight: 700;
+    margin-bottom: 16px;
+    
+}
+#wrapper .container .main-content .art-piece .artist{
+    font-size: 1.0em;
+    margin-bottom: 16px;
+}
+#wrapper .container .main-content .art-piece .detail{
+    font-size: 14px;
+}
+#wrapper .container .banner{
+    width: 30%;
+    float: right;
+    border: 1px solid #000;
+    padding-right: 30px;
+}
+#wrapper .container .banner .all{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: lightgray;
+    word-spacing: 30px;
+    
+}
+#wrapper .container .banner .love{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: orange;
+    text-indent: 30%;
+}
+#wrapper .container .banner strong{
+    font-size: 1.5em;
+    text-decoration: underline;
+    color: black;
+  
+}
